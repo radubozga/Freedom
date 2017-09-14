@@ -50,8 +50,7 @@ open Speech.xcworkspace
 * Google Speech API - Speech-to-Text - https://cloud.google.com/speech/
 * Google Translation API - Tranlation from EN to RO - https://cloud.google.com/translate/
 * Dynamic Button - Swift Button Library - https://github.com/yannickl/DynamicButton
-* 
-- Swift Animations Library - https://github.com/ninjaprox/NVActivityIndicatorView
+* NVActivityIndicatorView - Swift Animations Library - https://github.com/ninjaprox/NVActivityIndicatorView
 
 ## Contributing
 
