@@ -1,6 +1,6 @@
 # Freedom
 
-Freedom is an iOS Swift App that helps the **Romanian deaf communicate with foreigners**. We use Google's Speech and Translation APIs to translate from speech in english to text in romanian.
+Freedom is an iOS Swift App that helps the **Romanian deaf communicate with foreigners**. It uses Google's Speech and Translation APIs to translate from speech in english to text in romanian.
 
 The app is still in development - I am still testing it to find bugs and other useful features to implement.
 
