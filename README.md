@@ -1,9 +1,8 @@
 # Freedom
 
-Freedom is an iOS Swift App that helps the romanian deaf communicate with foreigners. We use Google's Speech and Translation APIs to translate from speech in english to text in romanian.
+Freedom is an iOS Swift App that helps the **Romanian deaf communicate with foreigners**. We use Google's Speech and Translation APIs to translate from speech in english to text in romanian.
 
-The app is still in development - We am still testing it to find bugs and other useful features to implement. 
-We hope to add multi-language support soon. We are also looking for a way to add punctuation signs (,.?!:), how to detect and capitalize proper nouns and we will (a friend) port it to Android. 
+The app is still in development - I am still testing it to find bugs and other useful features to implement.
 
 ## Demo
 ![alt tag](https://media.giphy.com/media/3ov9jQG52ouPV1lH5m/giphy.gif)
@@ -44,6 +43,15 @@ open Speech.xcworkspace
 **FIX:** Delete the entire links EXCEPT the name of the final file.
 **Example** If the link is *google/api/link/isbrokenbutcanbefixed.bjopch* delete the *google/api/link/* . Finally, your link should be *isbrokenbutcanbefixed.bjopch*
 
+## Contributing
+
+Please feel free to Contribute to Freedom.
+If you like Freedom and have any idea on how to add any of the following features let me know :) 
+* Android version (someone will start working on this soon)
+* Multi-language support 
+* Detect where to add and add punctuation signs (,.?!:)
+* Detect and capitalize proper nouns
+
 ## Built With
 
 * Cacaopods - dependency manager - https://cocoapods.org
@@ -51,15 +59,6 @@ open Speech.xcworkspace
 * Google Translation API - Tranlation from EN to RO - https://cloud.google.com/translate/
 * Dynamic Button - Swift Button Library - https://github.com/yannickl/DynamicButton
 * NVActivityIndicatorView - Swift Animations Library - https://github.com/ninjaprox/NVActivityIndicatorView
-
-## Contributing
-
-Please feel free to Contribute to Freedom.
-If you like Freedom and have any idea on how to add any of the following features let me know :) 
-* Multi-language support soon
-* Detect where to add and add punctuation signs (,.?!:)
-* Detect and capitalize proper nouns. 
-
 
 ## License
 
