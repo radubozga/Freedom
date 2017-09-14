@@ -6,7 +6,7 @@ The app is still in development - I am still testing it to find bugs and other u
 We hope to add multi-language support soon. We are also looking for a way to add punctuation signs (,.?!:) and to detect and capitalize proper nouns. 
 
 ## Demo
-![alt tag](https://raw.githubusercontent.com/radubozga/Freedom/Preview%20Freedom.mov)
+Download demo from here - https://raw.githubusercontent.com/radubozga/Freedom/master/Preview%20Freedom.mov
 
 ## Getting Started
 
