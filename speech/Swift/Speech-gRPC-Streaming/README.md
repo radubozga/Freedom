@@ -1,6 +1,4 @@
-# Cloud Speech Streaming gRPC Swift Sample
-
-This app demonstrates how to make streaming gRPC connections to the [Cloud Speech API](https://cloud.google.com/speech/) to recognize speech in recorded audio.
+# Cloud Speech Streaming gRPC
 
 ## Prerequisites
 - An API key for the Cloud Speech API (See
@@ -42,23 +40,3 @@ This app demonstrates how to make streaming gRPC connections to the [Cloud Speec
 - In Xcode's Project Navigator, open the `SpeechRecognitionService.swift` file within the `Speech` directory.
 
 - Find the line where the `API_KEY` is set. Replace the string value with the API key obtained from the Cloud console above. This key is the credential used to authenticate all requests to the Speech API. Calls to the API are thus associated with the project you created above, for access and billing purposes.
-
-- You are now ready to build and run the project. In Xcode you can do this by clicking the 'Play' button in the top left. This will launch the app on the simulator or on the device you've selected. Be sure that the 'Speech' target is selected in the popup near the top left of the Xcode window. 
-
-- Tap the `Start Streaming` button. This uses a custom AudioController class to capture audio in an in-memory instance of NSMutableData. When this data reaches a certain size, it is sent to the SpeechRecognitionService class, which streams it to the speech recognition service. Packets are streamed as instances of the RecognizeRequest object, and the first RecognizeRequest object sent also includes configuration information in an instance of InitialRecognizeRequest. As it runs, the AudioController logs the number of samples and average sample magnitude for each packet that it captures.
-
-- Say a few words and wait for the display to update when your speech is recognized.
-
-- Tap the `Stop Streaming` button to stop capturing audio and close your gRPC connection.
-
-[vision-zip]: https://github.com/GoogleCloudPlatform/cloud-vision/archive/master.zip
-[getting-started]: https://cloud.google.com/vision/docs/getting-started
-[cloud-console]: https://console.cloud.google.com
-[git]: https://git-scm.com/
-[xcode]: https://developer.apple.com/xcode/
-[billing]: https://console.cloud.google.com/billing?project=_
-[enable-speech]: https://console.cloud.google.com/apis/api/speech.googleapis.com/overview?project=_
-[api-key]: https://console.cloud.google.com/apis/credentials?project=_
-[cocoapods]: https://cocoapods.org/
-[gRPC Objective-C setup]: https://github.com/grpc/grpc/tree/master/src/objective-c
-
