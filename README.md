@@ -6,7 +6,7 @@ The app is still in development - I am still testing it to find bugs and other u
 We hope to add multi-language support soon. We are also looking for a way to add punctuation signs (,.?!:) and to detect and capitalize proper nouns. 
 
 ## Demo
-Download demo from here - https://raw.githubusercontent.com/radubozga/Freedom/master/Preview%20Freedom.mov
+![alt tag](https://media.giphy.com/media/3ov9jQG52ouPV1lH5m/giphy.gif)
 
 ## Getting Started
 
@@ -50,7 +50,8 @@ open Speech.xcworkspace
 * Google Speech API - Speech-to-Text - https://cloud.google.com/speech/
 * Google Translation API - Tranlation from EN to RO - https://cloud.google.com/translate/
 * Dynamic Button - Swift Button Library - https://github.com/yannickl/DynamicButton
-* NVActivityIndicatorView - Swift Animations Library - https://github.com/ninjaprox/NVActivityIndicatorView
+* 
+- Swift Animations Library - https://github.com/ninjaprox/NVActivityIndicatorView
 
 ## Contributing
 
