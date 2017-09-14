@@ -1,0 +1,78 @@
+PODS:
+  - !ProtoCompiler (3.0.2):
+    - Protobuf (~> 3.0)
+  - !ProtoCompiler-gRPCPlugin (1.0.2):
+    - !ProtoCompiler (= 3.0.2)
+    - gRPC-ProtoRPC (= 1.0.2)
+  - BoringSSL (7.0):
+    - BoringSSL/Implementation (= 7.0)
+    - BoringSSL/Interface (= 7.0)
+  - BoringSSL/Implementation (7.0):
+    - BoringSSL/Interface (= 7.0)
+  - BoringSSL/Interface (7.0)
+  - DynamicButton (4.0.0)
+  - googleapis (0.0.1):
+    - !ProtoCompiler-gRPCPlugin (~> 1.0.0-pre1.1)
+    - googleapis/Messages (= 0.0.1)
+    - googleapis/Services (= 0.0.1)
+  - googleapis/Messages (0.0.1):
+    - !ProtoCompiler-gRPCPlugin (~> 1.0.0-pre1.1)
+    - Protobuf
+  - googleapis/Services (0.0.1):
+    - !ProtoCompiler-gRPCPlugin (~> 1.0.0-pre1.1)
+    - googleapis/Messages
+    - gRPC-ProtoRPC
+  - GradientView (2.2.0)
+  - gRPC (1.0.2):
+    - gRPC-Core (= 1.0.2)
+    - gRPC-RxLibrary (= 1.0.2)
+  - gRPC-Core (1.0.2):
+    - gRPC-Core/Implementation (= 1.0.2)
+    - gRPC-Core/Interface (= 1.0.2)
+  - gRPC-Core/Implementation (1.0.2):
+    - BoringSSL (~> 7.0)
+    - gRPC-Core/Interface (= 1.0.2)
+  - gRPC-Core/Interface (1.0.2)
+  - gRPC-ProtoRPC (1.0.2):
+    - gRPC (= 1.0.2)
+    - gRPC-RxLibrary (= 1.0.2)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.0.2)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - Protobuf (3.4.0)
+  - ROGoogleTranslate (0.0.5)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - DynamicButton (~> 4.0.0)
+  - googleapis (from `.`)
+  - GradientView (~> 2.2.0)
+  - NVActivityIndicatorView
+  - ROGoogleTranslate
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  googleapis:
+    :path: .
+
+SPEC CHECKSUMS:
+  !ProtoCompiler: cfad9cbe5299a4923b1c3c8f150818c91efd0b6d
+  !ProtoCompiler-gRPCPlugin: ee00d28bb35b26e2657f239833b8f2aa66724f96
+  BoringSSL: 50035b9d9eeff5529587311782fc57c00ebf13ae
+  DynamicButton: ddc1e8d79e37f2761ab64df0c02e89061b05d812
+  googleapis: daa20dca7a0097c6c3316fdfd888e0ba1b7c8921
+  GradientView: a5397174594f158dc1511127f2004ec25c9d2300
+  gRPC: dd3a91e0fb770b9fc4f43d1292fb19f2a2e04158
+  gRPC-Core: cc4a7613190ff0bc60a0c1e702ef07cd3f868ae6
+  gRPC-ProtoRPC: 11533510522a5e9627883a597a796cfe6bef05f3
+  gRPC-RxLibrary: 02cc70b76bc0c5bc622ba27595cca2598d9fe528
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  ROGoogleTranslate: 344d579487c21af1ae54138baa68605b861ba84e
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 12c3b053596b9f4124a779383520165d68b45035
+
+COCOAPODS: 1.3.1
