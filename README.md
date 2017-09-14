@@ -2,8 +2,8 @@
 
 Freedom is an iOS Swift App that helps the romanian deaf communicate with foreigners. We use Google's Speech and Translation APIs to translate from speech in english to text in romanian.
 
-The app is still in development - I am still testing it to find bugs and other useful features to implement. 
-We hope to add multi-language support soon. We are also looking for a way to add punctuation signs (,.?!:) and to detect and capitalize proper nouns. 
+The app is still in development - We am still testing it to find bugs and other useful features to implement. 
+We hope to add multi-language support soon. We are also looking for a way to add punctuation signs (,.?!:), how to detect and capitalize proper nouns and we will (a friend) port it to Android. 
 
 ## Demo
 ![alt tag](https://media.giphy.com/media/3ov9jQG52ouPV1lH5m/giphy.gif)
